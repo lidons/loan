@@ -1,0 +1,27 @@
+<include file="Public/header"/>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder">新手教程</strong></div>
+  <table class="table table-hover text-center">
+    <tr>
+      <th>ID</th>     
+      <th>名称</th>
+	  <th>图片</th>
+	  <th>创建时间</th>
+	  <th>操作</th>
+    </tr>
+    <tr>
+      <td style="width:5%">1</td>
+      <td style="width:10%">客服二维码</td>   
+	  <td style="width:60%"><img src="__PUBLIC__/uploads/{$res.img}" width="150" height="150"  alt="" /></td>	
+	  <td style="width:10%">{$res.createtime|date='Y-m-d',###}</td>	
+      <td>
+      <div class="button-group">
+      <a type="button"  class="button border-main" href="{:U('Admin/image/add_img',array('id'=>$res['id']))}"><span class="icon-edit"></span>更换图片</a>
+      </div>
+      </td>
+    </tr> 
+  </table>
+</div>
+</body>
+</html>

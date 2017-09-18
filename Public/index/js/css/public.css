@@ -1,0 +1,18 @@
+﻿body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select,option{ margin:0; padding:0; color: #333;}
+html,body{font-size: 0.28rem;width: 100%;height: auto;}
+body{background: #FFFFFF;}
+em { font-style:normal; }
+li { list-style:none; }
+a { text-decoration:none; color: black;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+i{ font-style:normal}
+
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; }
+textarea { resize:none; overflow:auto; }
+strong{
+	font-weight: 100;
+}
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both;}
+

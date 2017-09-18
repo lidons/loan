@@ -1,0 +1,82 @@
+<include file="Public/header"/>
+<body>
+<div class="panel admin-panel" style="width: 40%;float: left; margin-left: 5%;margin-right:5%;margin-top: 10px;">
+  <div class="panel-head"><strong class="icon-reorder">佣金列表</strong></div>
+  <div class="padding border-bottom">  
+  <!--  <a class="button border-yellow" href="#add"><span class="icon-plus-square-o"></span> 添加内容</a>-->
+  </div> 
+  <table class="table table-hover text-center">
+    <tr>
+      <th width="30%">级别</th>
+      <th width="30%">佣金<span style="color:#d75c5c;">(%)</span></th>   
+    </tr>
+    <tr> 
+      <td>一级</td> 
+	  <td>{$main.0.show_money|moneyRide}<span style="color:#d75c5c;">%</td>     
+    </tr> 
+        <tr> 
+      <td>二级</td> 
+	  <td>{$main.1.show_money|moneyRide}<span style="color:#d75c5c;">%</td>     
+    </tr>
+  </table>
+</div>
+<div class="panel admin-panel margin-top" style="width: 40%;float: left;">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>修改佣金</strong></div>
+  <div class="body-content  form-x"> 
+  	  <div class="form-group">
+        <div class="label">
+          <label>等级：</label>
+        </div>
+        <div class="field">
+           <select name="s_ishome" class="input" id="main">
+	            <option value="0">选择等级</option>
+	            <option value="1">一级</option>
+	            <option value="2">二级</option>
+          </select>
+        </div>
+      </div> 
+      <div class="form-group">
+        <div class="label">
+          <label>百分比：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="addtime" id="num"  placeholder="填写百分比%"/>         
+          <div class="tips"></div>
+        </div>
+      </div> 
+     <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o put_in" type="submit"> 提交</button>
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+	$('.put_in').click(function(){
+		var id = $('#main').find("option:selected").val();
+		var show_money = $('#num').val();
+		if(id == 0){
+			dialog.error('你是否选择了级别？');
+			return false;
+		}
+		if(!show_money){
+			dialog.error('请填写佣金比例');
+			return false;
+		}
+		var url = "/admin.php/Admin/Yy/save_number";
+		var data ={'id':id,'show_money':show_money};
+	 	$.post(url,data,function(result){
+	          if(result.status == 0) {
+	              return dialog.error(result.message);
+	          }
+	          if(result.status == 1) {
+	              return dialog.success(result.message, '/Admin/Yy/save_moeny');
+	          }
+	      },'JSON');
+	});
+</script>
+</html>

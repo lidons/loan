@@ -1,0 +1,59 @@
+<include file="Public/header"/>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder">菜单列表</strong></div>
+  <div class="padding border-bottom">  
+  <span class="button border-blue" id="create_wxmenu"><span class="icon-circle-o-notch"></span> 生成菜单</span>
+  <span class="button border-yellow " id="add_wechar_menu" ><span class="icon-plus-square-o"></span> 添加菜单</span>
+  </div> 
+  <table class="table table-hover text-center">
+    <tr>
+      <th width="5%">ID</th>     
+      <th>名称</th>  
+      <th>类型</th>
+	  <th id="1">菜单操作值</th>
+      <th>操作</th>
+    </tr>
+    <volist name="res" id="vo">
+     <if condition="$vo.status eq 0 ">
+     <tr>
+      <td style="width:5%">{$vo.id}</td>      
+      <td style="text-align:left;width:20%">{$vo.name}</td>  
+      <td style="width:10%">{$vo.wx_type}</td>
+	  <td style="width:30%">{$vo.menu_change}</td>	  
+      <td>
+      <div class="button-group">
+       <a type="button" class="button border-main saveWxmenudo" href="javascript:void(0)" attr-id="{$vo.id}"><span class="icon-edit"></span>修改</a>
+       <a class="button border-red del_wxmenu_do" href="javascript:void(0)"  attr-id="{$vo.id}"><span class="icon-trash-o"></span> 删除</a>
+      </div>
+      </td>
+    </tr>
+     </if>
+     <volist name="res" id="vo2" >
+	 <eq name="vo.id" value="$vo2.status">
+	      <tr>
+      <td style="width:5%">{$vo2.id}</td>      
+      <td style="text-align:left;width:20%">&nbsp;&nbsp;&nbsp;&nbsp;├──{$vo2.name}</td>  
+      <td style="width:10%">{$vo2.wx_type}</td>
+	  <td style="width:30%">{$vo2.menu_change}</td>	  
+      <td>
+      <div class="button-group">
+      <a type="button" class="button border-main save_one_wxmenu" href="javascript:void(0)" attr-id="{$vo2.id}"><span class="icon-edit"></span>修改</a>
+       <a class="button border-red del_one_wxmenu" href="javascript:void(0)" attr-id="{$vo2.id}"><span class="icon-trash-o"></span> 删除</a>
+      </div>
+      </td>
+    </tr>
+	 </eq>
+	 </volist>
+	 
+	</volist>
+ </table>
+</div>
+<script>
+var SCOPE = {
+    'add_url' : '/Admin/Wechat/addmenu_do',
+}
+</script>
+<script src="__PUBLIC__/js/wechat.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<include file="Public/header"/>
+<body>
+<form action="{:U('Admin/Yy/del_commision')}" method="get"> 
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder">用户列表</strong></div>
+    </div>
+      <div class="padding border-bottom">
+      <ul class="search">
+        <li>
+          <button type="button"  class="button border-green" id="checkall"><span class="icon-check"></span> 全选</button>
+          <button type="submit" class="button border-red"><span class="icon-trash-o"></span> 批量删除</button>
+        </li>
+      </ul>
+    </div> 
+  <table class="table table-hover text-center">
+    <tr>
+      <th>ID</th>
+      <th>佣金</th>
+      <th>佣金来源</th>
+	  <th>佣金来源者</th>
+	  <th>一级佣金拥有者</th>
+	  <th>二级佣金拥有者</th>
+	  <th>佣金发放</th>
+    </tr>
+	<volist name="commision" id="vo">
+    <tr>
+	  <td style="width:5%"><input type="checkbox" name="id[]" value="{$vo.id}"/>{$vo.id}</td>
+      <td style="width:8%" >{$vo.source}</td>
+	  <td style="width:12%">不知道 </td> 
+	  <td style="width:12%;">不知道 </td>
+	 
+	  <td style="width:20%;">第一 &nbsp; &nbsp;
+		  <if condition="$vo.status eq 1"><span style="padding: 3px 10px;background-color:  #9e9e9e;color: #fff;"class="button ">{$vo['source']*$one['show_money']}</span> 
+		    <else/> <span style="padding: 3px 10px;background-color: #d75c5c;color: #fff;"class="button  ">{$vo['source']*$one['show_money']}</span> 
+		  </if>
+	 </td>
+	  <td style="width:20%;">第二  &nbsp; &nbsp;
+		  <if condition="$vo.status eq 1"><span style="border:1px solid #fff;padding: 3px 10px;background-color:#9e9e9e;color: #fff;"class="button border-green">{$vo['source']*$two['show_money']}</span> 
+		    <else/> <span style="padding: 3px 10px;border:1px solid #fff;background-color: #d75c5c;color: #fff;"class="button  ">{$vo['source']*$two['show_money']}</span> 
+		  </if>
+	 </td>
+	  <td>
+	  <if condition="$vo.status eq 0"> <a src="javascript:void(0)" attr-id="{$vo.id}" style="padding: 3px 10px;background-color: #d75c5c;color: #fff;"class="button  up_commision">发放</a>
+	 	<else />   <a src="javascript:void(0)"  style="border:1px solid #fff;padding: 3px 10px;background-color: #9e9e9e;color: #fff;"class="button down_commision">已发放</a>
+	  </if>
+	 </td>
+    </tr>
+	</volist>
+	<tr>
+        <td colspan="8"><div class="pagelist">{$page}</div></td>
+    </tr>
+  </table>
+</div>
+</form>
+</body>  
+<script>
+$("#checkall").click(function(){ 
+	  $("input[name='id[]']").each(function(){
+		  if (this.checked) {
+			  this.checked = false;
+		  }
+		  else {
+			  this.checked = true;
+		  }
+	  });
+	})
+
+$(".up_commision").on('click',function(){
+	  	var id = $(this).attr('attr-id');
+	    layer.open({
+	        type : 0,
+	        title : '是否提交？',
+	        btn: ['yes', 'no'],
+	        icon : 3,
+	        closeBtn : 2,
+	        content: "是否给此用户发放佣金？",
+	        scrollbar: true,
+	        yes: function(){
+	            // 执行相关跳转
+	            var url = "/admin.php/Admin/Yy/up_commision";
+	            var data = {'id':id,'status':1};
+	        	$.post(url,data,function(result){
+	  	          if(result.status == 0) {
+	  	              return dialog.error(result.message);
+	  	          }
+	  	          if(result.status == 1) {
+	  	              return dialog.success(result.message, '/Admin/Yy/commision');
+	  	          }
+	  	      },'JSON');
+	        },
+
+	    });
+
+});
+$(".down_commision").on('click',function(){
+	dialog.error('不可操作！');
+});
+</script>
+
+</html>

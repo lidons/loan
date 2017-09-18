@@ -1,0 +1,38 @@
+<include file="Public/header"/>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 基本配置</strong></div>
+  <div class="body-content  form-x">
+    <volist name="user" id="vo">
+      <div class="form-group">
+        <div class="label">
+          <label>微信名</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="mchid" value="{$vo.wxnickname}"  disabled name="username"/>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>可提现金额：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="money"  id="money" value="{$vo.money}"  />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <input type="hidden" id="id" name="id" value="{$vo.id}"/>
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" onclick="common.submit()" type="submit">提交</button>
+        </div>
+     </div>
+     </volist>
+    </form>
+  </div>
+</div>
+</body>
+</html>

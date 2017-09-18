@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/pintuer.css">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+<script src="__PUBLIC__/admin/js/jquery.js"></script>
+<script src="__PUBLIC__/admin/js/pintuer.js"></script>
+</head>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong><span class="icon-key"></span> 下载文件</strong></div>
+  <div class="body-content">
+  <div  class="form-x">
+   <volist  name="rels"  id="v" key="k">
+      <div class="form-group">
+        <div class="label">
+          <label for="sitename">文件{$k}</label>
+        </div>
+        <div class="field">
+          <a  class="input w50" href="__PUBLIC__/upfiles/{$v.name}">点击下载</a>      
+        </div>
+      </div>      
+    </volist>  
+   </div>   
+  </div>
+</div>
+</body>
+</html>

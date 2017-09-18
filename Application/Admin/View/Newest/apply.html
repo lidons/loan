@@ -1,0 +1,57 @@
+<include file="Public/header"/>
+<body>
+<form action="{:U('Admin/Newest/del_apply')}" method="get"> 
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder">贷款申请</strong></div>
+  <div class="padding border-bottom">  
+  </div>
+      <div class="padding border-bottom">
+      <ul class="search">
+        <li>
+          <button type="button"  class="button border-green" id="checkall"><span class="icon-check"></span> 全选</button>
+          <button type="submit" class="button border-red"><span class="icon-trash-o"></span> 批量删除</button>
+        </li>
+      </ul>
+    </div> 
+  <table class="table table-hover text-center">
+    <tr>
+      <th>ID</th>     
+      <th>申请第三方名称</th>
+	  <th>用户姓名</th> 
+	  <th>用户手机号</th>
+      <th>操作</th>
+    </tr>
+	<volist name="res" id="vo">
+    <tr>    
+      <td style="width:10%;"><input type="checkbox" name="id[]" value="{$vo.id}"/>{$vo.id}</td>
+      <td style="width:20%;">{$vo.title}</td>
+      <td style="width:20%;">{$vo.username}</td>
+      <td style="width:20%;">{$vo.phone}</td>
+      <td>
+      <div class="button-group">
+      <a type="button" class="button border-red del_apply_to"  attr-id="{$vo.id}"href="javascript:void(0)"><span class="icon-edit"></span>删除</a>
+      </div>
+      </td>
+    </tr> 
+	</volist>
+	<tr>
+        <td colspan="8"><div class="pagelist">{$page}</div></td>
+    </tr>
+  </table>
+</div>
+</form>
+<script>
+$("#checkall").click(function(){ 
+	  $("input[name='id[]']").each(function(){
+		  if (this.checked) {
+			  this.checked = false;
+		  }
+		  else {
+			  this.checked = true;
+		  }
+	  });
+	})
+</script>
+<script src="__PUBLIC__/js/newest.js"></script>
+</body>
+</html>

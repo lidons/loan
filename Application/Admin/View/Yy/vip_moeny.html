@@ -1,0 +1,80 @@
+<include file="Public/header"/>
+<body>
+<div class="panel admin-panel" style="width: 40%;float: left; margin-left: 5%;margin-right:5%;margin-top: 10px;">
+  <div class="panel-head"><strong class="icon-reorder">佣金列表</strong></div>
+  <div class="padding border-bottom">  
+  <!--  <a class="button border-yellow" href="#add"><span class="icon-plus-square-o"></span> 添加内容</a>-->
+  </div> 
+  <table class="table table-hover text-center">
+    <tr>
+      <th width="30%">会员</th>
+      <th width="30%">会员价格</span></th>   
+    </tr>
+  <volist name="member" id="vo">
+    <tr> 
+      <td>{$vo.member}</td> 
+	  <td>{$vo.member_moeny}</td>  
+   </tr> 
+   </volist> 
+  </table>
+</div>
+<div class="panel admin-panel margin-top" style="width: 40%;float: left;">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>修改佣金</strong></div>
+  <div class="body-content  form-x"> 
+  	  <div class="form-group">
+        <div class="label">
+          <label>等级：</label>
+        </div>
+        <div class="field">
+           <select name="s_ishome" class="input" id="main">
+	            <option value="0">选择等级</option>
+	            <option value="1">初级会员</option>
+	            <option value="2">中级会员</option>
+	            <option value="3">高级会员</option>
+	            <option value="4">服务商</option>
+	            <option value="5">高级服务商</option>
+	            <option value="6">合伙人</option>
+          </select>
+        </div>
+      </div> 
+      <div class="form-group">
+        <div class="label">
+          <label>百分比：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="addtime" id="num"  placeholder="填写金额"/>         
+          <div class="tips"></div>
+        </div>
+      </div> 
+     <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o put_in" type="submit"> 提交</button>
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+	$('.put_in').click(function(){
+		var id = $('#main').find("option:selected").val();
+		var show_money = $('#num').val();
+		if(id == 0){
+			dialog.error('你是否选择了会员？');
+			return false;
+		}
+		var url = "/admin.php/Admin/Yy/save_member";
+		var data ={'id':id,'show_money':show_money};
+	 	$.post(url,data,function(result){
+	          if(result.status == 0) {
+	              return dialog.error(result.message);
+	          }
+	          if(result.status == 1) {
+	              return dialog.success(result.message, '/Admin/Yy/vip_moeny');
+	          }
+	      },'JSON');
+	});
+</script>
+</html>

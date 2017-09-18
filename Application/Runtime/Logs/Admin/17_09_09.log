@@ -1,0 +1,1812 @@
+[ 2017-09-09T11:34:04+08:00 ] 182.254.86.145 /admin.php/admin/main/index?signature=a38e38ab910a83399748de4a963942776a0ff9c5&timestamp=1504928041&nonce=2041680540&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=d51c50195dbf9b21eb16951598358ebea62bff29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T11:44:07+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=cc51d86310203a18373a0f18cf28e083c8fb3a72&timestamp=1504928646&nonce=2019132572&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=4a590993dfa40c374c035e6d665b2515e92e6c6c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T11:44:17+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=09d7ffaac8b7b9c5ec276a3dadfdea31336a77ee&timestamp=1504928657&nonce=1896643570&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=2b0b0bcd250490264c7120d740d745d82446dd49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T11:46:27+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:46:28+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T11:46:28+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T11:46:28+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:46:48+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/save/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:46:53+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/addmoney_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: UPDATE `dk_user` SET `money`='12' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2017-09-09T11:46:54+08:00 ] 125.76.181.168 /Admin/Yy/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:46:58+08:00 ] 182.254.86.155 /admin.php/admin/main/index?signature=a8bf86e5cfdef850ec3d26571b94580025219093&timestamp=1504928817&nonce=649924363&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=6dd59d84f6c7e0fcdcc0e5e8a6b2de107544623f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:47:52+08:00 ] 125.76.181.168 /index.php/Admin/Yy/save/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( id=7 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:47:58+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:52:50+08:00 ] 125.76.181.168 /admin.php/Admin/Newest/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_apply` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_apply` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:52:51+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T11:53:18+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/save/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( id=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T11:53:27+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T11:53:28+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T11:53:28+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T11:53:28+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:19:52+08:00 ] 182.254.86.150 /admin.php/admin/main/index?signature=456599645768b67dce8dbc9369c04fd2f93bda92&timestamp=1504930791&nonce=2127466972&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=eb5a5a46719ee56cb3b9024c07b80e8880d1cdcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:20:05+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=c1eea04993a51629a4dc67327947cee802b5926f&timestamp=1504930805&nonce=29762861&openid=oueFJ0cZ88bC_PQsPgtVnURlfD20&encrypt_type=aes&msg_signature=ac38ef0ad89fdbefb03b43bdb09e68388842379c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:20:25+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015624s ]
+
+[ 2017-09-09T12:20:37+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=bf540131a01bf3814511f9b7db7be227c9e27325&timestamp=1504930836&nonce=1779415072&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=4f58fa70f16f25ea4e3a99acf6ca5f898cd860de
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:21:24+08:00 ] 182.254.86.145 /admin.php/admin/main/index?signature=9becf4656badbdbbcddb386a728b7e7276dcf3d8&timestamp=1504930883&nonce=247616333&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=c2b69257b016fd284b79d21e669d47f212ff9155
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T12:21:32+08:00 ] 182.254.86.149 /admin.php/admin/main/index?signature=5e8aaff2dbd7307d140542f22599f0530a223494&timestamp=1504930891&nonce=746026536&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=6ec00054033c03fed28342eaef3813df5a9c2f1f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] readfile(https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 50 行.
+NOTIC: [8] getimagesize(): Read error! C:\UPUPW\htdocs\loan\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 45 行.
+ERR: 非法图像文件
+
+[ 2017-09-09T12:21:38+08:00 ] 182.254.86.155 /admin.php/admin/main/index?signature=71f4c3bcd9e253d5e75ef7c3621eb20193f6a4e6&timestamp=1504930896&nonce=1463656407&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=9f0f5197a2b237466323bf8b0a861fda75acb966
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T12:21:50+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:21:51+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:21:51+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:21:53+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:21:54+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:21:54+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015624s ]
+
+[ 2017-09-09T12:21:54+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:21:54+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:21:55+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:21:56+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:21:57+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:21:57+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:21:58+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015624s ]
+
+[ 2017-09-09T12:21:58+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:21:58+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:21:59+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:22:00+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:22:20+08:00 ] 182.254.86.155 /admin.php/admin/main/index?signature=eabaf274e9676f009f9bc168051f5cde8251e6d0&timestamp=1504930938&nonce=117313099&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=cf513696378ca947e94026e3f0010e1a1d5de0e2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T12:22:48+08:00 ] 182.254.86.155 /admin.php/admin/main/index?signature=e5f1123a96230dcb0997de97578e4aec1c7c2c76&timestamp=1504930968&nonce=871738539&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=185cef38f367f07179ff37f7fdc95588dff0b5ea
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:23:10+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=efe2d7a3d2105a85672442e86a15aeae8bd77367&timestamp=1504930989&nonce=1660368516&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=f02aa47ff311f99ee6a7dd357caed8ae16ec7757
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T12:23:29+08:00 ] 182.254.86.149 /admin.php/admin/main/index?signature=6a04a8e40fc94a6206f836af9dd139bc3d9a8aaa&timestamp=1504931006&nonce=1920425124&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=e83fb430156a41008c541e4b3fea91f3c18cb0be
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T12:24:08+08:00 ] 182.254.86.139 /admin.php/admin/main/index?signature=3f29e4235d2061af6a5bc98876eb0de3aee081d3&timestamp=1504931047&nonce=2017280579&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=2bbc4832a8fada679d8ebe53b74b8d74d63fe188
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0axMwgMFj88RNj5qRujGa5g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: INSERT INTO `dk_user` (`wxuser`,`wxnickname`,`upuseropenid`,`upuser`,`heightuser`,`huseropenid`,`headimgurl`,`city`,`province`) VALUES ('oueFJ0axMwgMFj88RNj5qRujGa5g','丁庆','oueFJ0Vs5UPgMyjeEcFpOdV36Pls','Strawberry????','','','http://wx.qlogo.cn/mmopen/cHx48JwqyZTBM9vs1xwBgCaxMSm92ibVWRcXE3JrOjTSMdaNDA2ibH0nfNcNUxrmE2KOcme3r0UzhqMIL9ibmNwZMIuqOksZMzL/0','三门峡','河南') [ RunTime:0.0000s ]
+
+[ 2017-09-09T12:24:14+08:00 ] 182.254.86.155 /admin.php/admin/main/index?signature=d4562cef6525bae0451ca29ec4b684a522031294&timestamp=1504931053&nonce=658373329&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=c031c5e0267923e1e6f8f55ca6359b784fb41734
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: key C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:24:29+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=cf37bbdad5739447306f8e43ee4fbc1274e490f0&timestamp=1504931066&nonce=1795493207&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=b0681f856d3ce7b88dda3756e11654e95b2093e7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0axMwgMFj88RNj5qRujGa5g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T12:24:43+08:00 ] 182.254.86.139 /admin.php/admin/main/index?signature=52314a95512520b91741c3f212505d6cf4ad6971&timestamp=1504931082&nonce=2067221488&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=9324fa59218f53012a071d2f76a0832a2f5bf068
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: key C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:25:07+08:00 ] 182.254.86.150 /admin.php/admin/main/index?signature=74a5443aa6d5d538f7f1f8b80cf0c1ac57f7ab40&timestamp=1504931106&nonce=2063272988&openid=oueFJ0cZ88bC_PQsPgtVnURlfD20&encrypt_type=aes&msg_signature=5365663be9d0e4f922fb2c45106abde787cfea06
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0cZ88bC_PQsPgtVnURlfD20' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0axMwgMFj88RNj5qRujGa5g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: INSERT INTO `dk_user` (`wxuser`,`wxnickname`,`upuseropenid`,`upuser`,`heightuser`,`huseropenid`,`headimgurl`,`city`,`province`) VALUES ('oueFJ0cZ88bC_PQsPgtVnURlfD20','小杜','oueFJ0axMwgMFj88RNj5qRujGa5g','丁庆','Strawberry????','oueFJ0Vs5UPgMyjeEcFpOdV36Pls','http://wx.qlogo.cn/mmopen/Q3auHgzwzM5T86agoGKicCr5Z1sWCeWFHgOia8P6E3BQgDuWNkdUlY6v8anlKDbysF6SRGb2BaaB61iapnZPTXn7w/0','西安','陕西') [ RunTime:0.0000s ]
+
+[ 2017-09-09T12:27:50+08:00 ] 182.254.86.149 /admin.php/admin/main/index?signature=1f802e0c10c830f590584ee566a535765aa81b78&timestamp=1504931267&nonce=26143855&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=841a9738f17c8df4b1c62da821f4b033f3daa480
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T12:27:57+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=ce89a066a73c805580226972c1595e75eb9f6ec1&timestamp=1504931276&nonce=1092729403&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=729817bf2503b98e789372f9f0b3f77c09d14b5f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:28:06+08:00 ] 182.254.86.150 /admin.php/admin/main/index?signature=d7afafbc534dddda1e3f9870c9db4f98d22ba6cc&timestamp=1504931286&nonce=1186554765&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=dc31a29d0db0ce37f23fc64ffa9ce03766478262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:29:04+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=5072e9c5f7ae967d0b8712066e049442ad5bb5ce&timestamp=1504931344&nonce=2012486008&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=b84b69d6922904ce9cbf526043d256ec480be1a9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:32:35+08:00 ] 125.76.181.168 /admin.php/Admin/Yy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_user` WHERE ( state=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE ( state=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:57:52+08:00 ] 182.254.86.150 /admin.php/admin/main/index?signature=17b46fb2d8db9e17e597697e32f4e8d3f185300a&timestamp=1504933071&nonce=617881688&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=80369ac0cd8fb3abf8b0ba798595632bd8a81bfd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:58:14+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=27c4cefbda61aba567f78544287c9004fbf49226&timestamp=1504933094&nonce=223515558&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=784cdc29023018ecf62471e44a187937f83f0313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:59:17+08:00 ] 182.254.86.154 /admin.php/admin/main/index?signature=6b5840ce5b6b32ae85e7e7a475ceb4d0d1974e0f&timestamp=1504933156&nonce=632139333&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=5e4f7dace8481b1ea63688b718074bb5361f550c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T12:59:46+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=25fb1ce068bf2c94713fb1e28e64228a06f7d06f&timestamp=1504933186&nonce=1898997435&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=19ff1cdf2034f64b3dc333d09ec2571b0ae75771
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T13:10:10+08:00 ] 182.254.86.145 /admin.php/admin/main/index?signature=da2062106a1d740057e97545837e4dba79635498&timestamp=1504933809&nonce=1596806919&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=3606a329cd969ecf7ce4771db2a347072a66c811
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T13:17:06+08:00 ] 182.254.86.139 /admin.php/admin/main/index?signature=e92d40722b3928f791eab53cc2fe9578976c680d&timestamp=1504934225&nonce=1187398677&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=a271c56660e1c946e65c3b6314fce9dd4ea60508
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T13:19:03+08:00 ] 182.254.86.139 /admin.php/admin/main/index?signature=895716899e5a1b268dd153da2d093703a30b0cb1&timestamp=1504934343&nonce=1964117673&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=026baf77441d27e4a065b14cc4172e51875154d9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T13:19:41+08:00 ] 182.254.86.154 /admin.php/admin/main/index?signature=810f2f5766c286a9fb71b3f65f525d807e5afcd3&timestamp=1504934379&nonce=1465154639&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=f30d52c21c40fb1107e522296f41b277930d83f4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T13:19:45+08:00 ] 182.254.86.149 /admin.php/admin/main/index?signature=ace958b6f681ad2d6e87840d0d873caeb6113e1f&timestamp=1504934385&nonce=2053104980&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=75d67260c9dbe3747e2a069b047099e4ff2b1f3d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T13:26:27+08:00 ] 182.254.86.154 /admin.php/admin/main/index?signature=0d58151468bf304a5d1f03dfb106be91b03eb513&timestamp=1504934786&nonce=1391888591&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=6c85d8beb6351edb878d87f9644f58f30fbcf121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:02:40+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=50319d32094f6cd0a086a334d49f064b4054547a&timestamp=1504936959&nonce=296133198&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=96f5ff3e94f053b58f7f1e36a18f6ab5d0bd0d36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:02:56+08:00 ] 182.254.86.150 /admin.php/admin/main/index?signature=645ebdc1b66b7ad78eac9d6617353a86b3066d88&timestamp=1504936972&nonce=1282169815&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=6d1350b063cda9d826dda1a26cc22446d934f09c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T14:02:59+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=bf134db19ed94f990924c9ae5209a7f2a1f05a3a&timestamp=1504936978&nonce=625592291&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=c2212108345a1f0984cea2c97e96fc7c729040d5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:13:39+08:00 ] 182.254.86.155 /admin.php/admin/main/index?signature=1efe45fe63d85969247e3bbb813be9ca7a103932&timestamp=1504937619&nonce=809390712&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=755d6057056c8503c591748f584985466149ce53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:18:24+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=bf95c94163dd120fbd69b9b2668bafd554b540e5&timestamp=1504937903&nonce=1761479274&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=1983b145ac958afc5f0a862419deedb0b1f03b7b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:19:03+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=26a95acacb4c9f78ed281857764f721e44401eb3&timestamp=1504937942&nonce=23196153&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=9e70171cd0c80fc8fa291d5b6011d58169542fdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: key C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:19:20+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=2644ed2a15e5f3b37111c28062a914dc2549a65f&timestamp=1504937960&nonce=420021366&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=10c6879ff51b8ad3c235395b219daf258b215ea1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: key C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:39:57+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=78c4514eab109b12fa4e4000bc4760c27628c52a&timestamp=1504939196&nonce=262878544&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=4a0a442b5d10faa0c9f8134128f62533f52ee922
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:43:40+08:00 ] 182.254.86.154 /admin.php/admin/main/index?signature=9d1b5554e09217db8d8ba103718016602bf4209f&timestamp=1504939420&nonce=796693850&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=82c9b972fb5e6e534267b830a05221dc7f97d9a9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:56:33+08:00 ] 182.254.86.145 /admin.php/admin/main/index?signature=c33ed797039b6fbd971fd6afa10e3b1604491e43&timestamp=1504940191&nonce=525344561&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=878007746ad87fd89b1e5614ded45d8a4f6a6f25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T14:56:36+08:00 ] 182.254.86.158 /admin.php/admin/main/index?signature=9bc7aedd7cd93cef1f559206d19690f98b4417a5&timestamp=1504940196&nonce=478347956&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=4cf86a8f37d13f4d79935fa1167e68c77e449729
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:59:15+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=36d0b5afeb627a1b091e7f269e2eb1562450f175&timestamp=1504940355&nonce=673823904&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=57e447e31c7f5e86654f0124d123e499f67630c6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T14:59:44+08:00 ] 182.254.86.155 /admin.php/admin/main/index?signature=505a29f84db59a7ed8ea2a66b41f6fb7a879af6d&timestamp=1504940383&nonce=243333736&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=4c81432b1e94a072284042fef55e96370243f8c0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:03:04+08:00 ] 182.254.86.149 /admin.php/admin/main/index?signature=3e42379595629e6e6797931113b8336e20bb8ca3&timestamp=1504940583&nonce=910874538&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=537c633f9895bef63ceb92012a66843b455ddc9c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:03:15+08:00 ] 182.254.86.139 /admin.php/admin/main/index?signature=939deb296f9d47dcf81285a3f1ca89ec390aa0f4&timestamp=1504940595&nonce=1331226050&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=733d1c42cda3303e976589b8fe194dd933b24206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:07:51+08:00 ] 182.254.86.144 /admin.php/admin/main/index?signature=7800fe86eee86f7c7251e0bdee19ede816daf72f&timestamp=1504940871&nonce=1882181202&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=af39e1d5acd73c12a5aa0d6d3c64cac76270f78d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:08:37+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=df56e473a05815eb28814cc01bc274f83da966df&timestamp=1504940917&nonce=9057217&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=1aa105657b2ea991862c5a247af2666f5ea85388
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:10:03+08:00 ] 182.254.86.150 /admin.php/admin/main/index?signature=75399a3eaf1969e0625b3aa5732a97918edbfa5b&timestamp=1504941003&nonce=826012194&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=3d70e89e583f5de3560cc15605ac96f2bfef58b9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:14:35+08:00 ] 182.254.86.139 /admin.php/admin/main/index?signature=590a57752006df86b3c764a329d436ba2dc8206c&timestamp=1504941274&nonce=664592436&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=53683d23eac900f834acd7f15e218604b445dc2f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:24:18+08:00 ] 182.254.86.149 /admin.php/admin/main/index?signature=7609dc4bbd61d0b62b6218bdc20a2c8b6c4c90ff&timestamp=1504941857&nonce=1000407335&openid=oueFJ0dYbR5SVF4FgcJQUeGJjMq8&encrypt_type=aes&msg_signature=e83d315eaf138c5545bf52de99aa5c0ce7ddca23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: key C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:30:49+08:00 ] 182.254.86.154 /admin.php/admin/main/index?signature=594b673d956e47692fed754a63b0b7723a584ce4&timestamp=1504942249&nonce=1246240625&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=14aeded72f8897620ee87ac42e232288b5b49568
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T15:45:13+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=e9dc31272b24890d583dde194e52c488fda67690&timestamp=1504943112&nonce=854159&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=e51bc368a70978cb9b5fd7560edbc2e437878658
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T17:19:49+08:00 ] 182.254.86.149 /admin.php/admin/main/index?signature=a7717ed34a13a54b172889d52b7e96e6493b52c4&timestamp=1504948788&nonce=276328141&openid=oueFJ0axMwgMFj88RNj5qRujGa5g&encrypt_type=aes&msg_signature=33f77a27614ff013c64a82cc6681bb277c256637
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T17:32:53+08:00 ] 182.254.86.145 /admin.php/admin/main/index?signature=5d2bf9807a61464e50746e823588219eb2a2520a&timestamp=1504949572&nonce=1503095331&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=33b145330321b2e694eb7cacfb90f17064a42a08
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T17:34:28+08:00 ] 182.254.86.150 /admin.php/admin/main/index?signature=bbfe4942d0d806536ce650211f36e74c3fb273a2&timestamp=1504949667&nonce=1587253099&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=b2b747c6199ea61e1e0530dd9f17008b80aae481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T17:37:34+08:00 ] 182.254.86.139 /admin.php/admin/main/index?signature=a8a68b51ed7860bb632f5d67b0736734d2f60e4b&timestamp=1504949853&nonce=2077951972&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=c93f3fe1bd3ca37cd105501ac00f9f900524ad8e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T17:39:35+08:00 ] 182.254.86.145 /admin.php/admin/main/index?signature=c091d6035517f7d4ca83e0e6ce7813e074efb747&timestamp=1504949972&nonce=870731819&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=d2d17129db2d6013b0ed3cc163a282c7e65ec75d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T17:39:40+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=9b892676613eea4d625d2b29e714b9360d6f6b89&timestamp=1504949980&nonce=161565146&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=63aa0dc58858c3d8af9be4119e4e3e5a56d96238
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T17:42:47+08:00 ] 182.254.86.154 /admin.php/admin/main/index?signature=e6b2e216d56e7551d302c0351dde193804f6f7e6&timestamp=1504950166&nonce=1954709425&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=ff44123517fdb765b767f00a1da1cfe579e2f23c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-09-09T17:45:52+08:00 ] 182.254.86.153 /admin.php/admin/main/index?signature=230b06ecd40277737003b9eac064fc5e74be85c7&timestamp=1504950350&nonce=259797079&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=9d0530b72158c7cb7c705998bb3d1e998c9de646
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T17:46:30+08:00 ] 182.254.86.141 /admin.php/admin/main/index?signature=ac8bea060431b74e44df19adc4eb04d3f8936c81&timestamp=1504950389&nonce=1320746546&openid=oueFJ0f0zM1ExiiQsnGBM0_vHe78&encrypt_type=aes&msg_signature=9808c366b1ecb67937edb48181902e6b6e7ce67b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0f0zM1ExiiQsnGBM0_vHe78' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_user` WHERE `wxuser` = 'oueFJ0Vs5UPgMyjeEcFpOdV36Pls' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dk_user` [ RunTime:0.0000s ]
+SQL: INSERT INTO `dk_user` (`wxuser`,`wxnickname`,`upuseropenid`,`upuser`,`heightuser`,`huseropenid`,`headimgurl`,`city`,`province`,`create_time`) VALUES ('oueFJ0f0zM1ExiiQsnGBM0_vHe78','嗨 ','oueFJ0Vs5UPgMyjeEcFpOdV36Pls','Strawberry????','','','http://wx.qlogo.cn/mmopen/EogItObjlsk0bb6p9Nn0Qc3pibIe9ibqOxPwrNt7icoChJ2Hddib04KdJic9QfJOvVdmvAicR71WzCicEpE0fhABT12wg/0','','','1504950390') [ RunTime:0.0000s ]
+
+[ 2017-09-09T17:46:56+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=6ae77d0972d00cded44ba64f6fabae046f2d1a23&timestamp=1504950415&nonce=866838440&openid=oueFJ0f0zM1ExiiQsnGBM0_vHe78&encrypt_type=aes&msg_signature=e9bfcba817c449d25afc09c519a1c2e27b1887da
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T17:47:37+08:00 ] 182.254.86.140 /admin.php/admin/main/index?signature=dfd478fb784477ba1b47a55626d2000a82d1516d&timestamp=1504950457&nonce=246870689&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=00eda0fa6c15b74b185e919173e614634ad1cdfa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T17:55:26+08:00 ] 182.254.86.149 /admin.php/admin/main/index?signature=c9b2467bef7d93015869389a413ca85997a652a7&timestamp=1504950925&nonce=1584089614&openid=oueFJ0Vs5UPgMyjeEcFpOdV36Pls&encrypt_type=aes&msg_signature=fb55becde10c05c5c2f582c6f01b3d603ea8ba83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant lidons - assumed 'lidons' C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 8 行.
+NOTIC: [8] Undefined index: echostr C:\UPUPW\htdocs\loan\Application\Admin\Controller\MainController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `dk_wechat` [ RunTime:0.0938s ]
+SQL: SELECT * FROM `dk_wechat` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

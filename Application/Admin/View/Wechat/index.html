@@ -1,0 +1,92 @@
+<include file="Public/header"/>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 基本配置</strong></div>
+  <div class="body-content form-x" >
+      <div class="form-group">
+        <div class="label">
+          <label>开发者中心Token：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="token" value="{$res.token}" />
+        </div>
+      </div>
+	  <div class="form-group">
+        <div class="label">
+          <label>开发者中心Appid：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="appid"  value="{$res.appid}"/>
+        </div>
+      </div>
+     
+	  <div class="form-group">
+        <div class="label">
+          <label>开发者中心Appsecret：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="appsecret" value="{$res.appsecret}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>开发者中心EncodingAESKey：</label>
+        </div>
+        <div class="field">
+           <input type="text" class="input" name="encodingaeskey" value="{$res.encodingaeskey}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>微信支付商户号(MchId)：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="mchid"  value="{$res.partnerid}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>商户支付密钥(Paymentkey)：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="paymentkey"  value="{$res.partnerkey}"/>
+          <div class="tips"></div>
+        </div>
+      </div>
+     
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" id="save_information" type="submit"> 提交</button>
+        </div>
+      </div>
+  </div>
+</div>
+</body>
+<script>
+	$("#save_information").click(function(){
+		var token = $("input[name='token']").val();
+		var appid = $("input[name='appid']").val();
+		var appsecret = $("input[name='appsecret']").val();
+		var encodingaeskey = $("input[name='encodingaeskey']").val();
+		var mchid = $("input[name='mchid']").val();
+		var paymentkey = $("input[name='paymentkey']").val();
+		console.log(token+appid+appsecret+encodingaeskey+mchid+paymentkey);
+		var url = '/Admin/Wechat/addwx_info';
+		data = {'token':token,' appid': appid, 'appsecret':appsecret,'encodingaeskey':encodingaeskey,'partnerid':mchid,'partnerkey':paymentkey}
+    	$.post(url,data,function(result){
+	          if(result.status == 0) {
+	              return dialog.error(result.message);
+	          }
+	          if(result.status == 1) {
+	              return dialog.success(result.message, '/Admin/Wechat/index');
+	          }
+	      },'JSON');
+	});
+</script>
+</html>

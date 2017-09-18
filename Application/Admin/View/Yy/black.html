@@ -1,0 +1,95 @@
+<include file="Public/header"/>
+<body >
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder">用户列表</strong></div>
+  <table class="table table-hover text-center">
+    <tr>
+      <th>ID</th>
+      <th>会员等级</th>
+	  <th>姓名</th>
+	  <th>微信名</th>
+	  <th>账户余额</th>
+	  <th>提现</th>
+	  <th>用户手机号</th>
+	  <th>操作</th>
+    </tr>
+	<volist name="user" id="vo">
+    <tr>
+      <!-- disabled name="username" -->
+	  <td style="width:5%">{$vo.id}</td>
+      <td style="width:15%" >{$vo.status|getStatus}</td>
+	  <td style="width:15%">{$vo.username|getUser} </td> 
+	  <td style="width:10%;">{$vo.wxnickname}</td>
+	  <td style="width:10%;">{$vo.money}</td>
+	  <td style="width:10%;">{$vo.up_money}</td>
+	  <td style="width:10%;">{$vo.phone}</td>
+      <td>
+      <div class="button-group">
+      <a href="javascript:void(0)" attr-id="{$vo.id}" class="button border-main updata_black" ><span class="icon-trash-o" ></span>恢复会员</a>
+      <a href="javascript:void(0)" attr-id="{$vo.id}" class="button border-red del_black" ><span class="icon-trash-o" ></span>删除会员</a>
+      </div>
+      </td>
+    </tr> 
+	</volist>
+	<tr>
+        <td colspan="8"><div class="pagelist">{$page}</div></td>
+    </tr>
+  </table>
+</div>
+</body>
+<script>
+$(".updata_black").on('click',function(){
+  	var id = $(this).attr('attr-id');
+    layer.open({
+        type : 0,
+        title : '是否提交？',
+        btn: ['yes', 'no'],
+        icon : 3,
+        closeBtn : 2,
+        content: "是否恢复此会员？",
+        scrollbar: true,
+        yes: function(){
+            // 执行相关跳转
+            var url = "/admin.php/Admin/Yy/pull_black";
+            var data = {'id':id,'state':1};
+        	$.post(url,data,function(result){
+  	          if(result.status == 0) {
+  	              return dialog.error(result.message);
+  	          }
+  	          if(result.status == 1) {
+  	              return dialog.success(result.message, '/Admin/Yy/black');
+  	          }
+  	      },'JSON');
+        },
+
+    });
+});
+$(".del_black").on('click',function(){
+  	var id = $(this).attr('attr-id');
+    layer.open({
+        type : 0,
+        title : '是否提交？',
+        btn: ['yes', 'no'],
+        icon : 3,
+        closeBtn : 2,
+        content: "是否删除此会员？",
+        scrollbar: true,
+        yes: function(){
+            // 执行相关跳转
+            var url = "/admin.php/Admin/Yy/del_black";
+            var data = {'id':id};
+        	$.post(url,data,function(result){
+  	          if(result.status == 0) {
+  	              return dialog.error(result.message);
+  	          }
+  	          if(result.status == 1) {
+  	              return dialog.success(result.message, '/Admin/Yy/black');
+  	          }
+  	      },'JSON');
+        },
+
+    });
+});
+
+</script>
+</html>

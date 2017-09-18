@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title>后台管理中心</title>  
+<link rel="stylesheet" href="__PUBLIC__/admin/css/pintuer.css">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+<script src="__PUBLIC__/admin/js/jquery.js"></script> 
+<script src="__PUBLIC__/dialog/layer.js"></script>
+<script src="__PUBLIC__/js/dialog.js"></script>
+</head>
+<body style="background-color:#f2f9fd;">
+<div class="header bg-main">
+  <div class="logo margin-big-left fadein-top">
+    <h1><img src="__PUBLIC__/admin/images/y.jpg" class="radius-circle rotate-hover" height="50" alt="" />后台管理中心</h1>
+  </div>
+  <div class="head-l"><a style="cursor:pointer;" class="button button-little bg-green">{$Think.session.user}</a> &nbsp;&nbsp;<a class="button button-little bg-red" href="{:U('Admin/Login/loginout')}"><span class="icon-power-off"></span> 退出登录</a> </div>
+</div>
+<div class="leftnav">
+  <div class="leftnav-title"><strong><span class="icon-list"></span>菜单列表</strong></div>
+  <h2><span class="icon-cog"></span>基本设置</h2>
+  <ul>
+    <li><a href="{:U('Admin/Login/save_pwd')}" target="right"><span class="icon-caret-right"></span>修改密码</a></li>
+    <li><a href="{:U('Admin/Login/add_admin')}" target="right"><span class="icon-caret-right"></span>增加管理员</a></li>
+  </ul>
+    <h2><span class="icon-wechat"></span>微信设置</h2>
+  <ul>
+     <li><a href="{:U('Admin/Wechat/index')}" target="right"><span class="icon-caret-right"></span>微信管理</a></li> 
+      <li><a href="{:U('Admin/Wechat/addmenu')}" target="right"><span class="icon-caret-right"></span>菜单管理</a></li> 
+  </ul>   
+   <h2><span class="icon-picture-o"></span>页面图片</h2>
+  <ul>
+    <li><a href="{:U('Admin/Image/index')}" target="right"><span class="icon-caret-right"></span>新手教程</a></li>
+    <li><a href="{:U('Admin/Image/help_user')}" target="right"><span class="icon-caret-right"></span>客服图片</a></li>
+    <li><a href="{:U('Admin/Picture/index')}" target="right"><span class="icon-caret-right"></span>会员购买页轮播</a></li>
+  </ul>   
+  <h2><span class="icon-users"></span>会员管理</h2>
+  <ul>
+    <li><a href="{:U('Admin/Yy/index')}" target="right"><span class="icon-caret-right"></span>用户列表</a></li>
+	<li><a href="{:U('Admin/Newest/apply')}" target="right"><span class="icon-caret-right"></span>&nbsp;贷款申请</a></li>
+	<li><a href="{:U('Admin/Yy/vip_moeny')}" target="right"><span class="icon-caret-right"></span>&nbsp;会员金额</a></li> 
+	<li><a href="{:U('Admin/Yy/black')}" target="right"><span class="icon-caret-right"></span>黑名单管理</a></li>            
+  </ul>
+  <h2><span class="icon-paw"></span>页面修改</h2>
+  <ul>
+    <li><a href="{:U('Admin/Menu/index')}" target="right"><span class="icon-caret-right"></span>文章列表</a></li>
+    <li><a href="{:U('Admin/Newest/index')}" target="right"><span class="icon-caret-right"></span>贷款入口</a></li>
+    <li><a href="{:U('Admin/Card/index')}" target="right"><span class="icon-caret-right"></span>办卡银行列表</a></li>
+    <li><a href="{:U('Admin/Upmany/index')}" target="right"><span class="icon-caret-right"></span>返佣列表</a></li>
+     <li><a href="{:U('Admin/Keepcard/index')}" target="right"><span class="icon-caret-right"></span>养卡攻略</a></li>
+  </ul>
+    <h2><span class="icon-money"></span>佣金管理</h2>
+  <ul>
+   	<li><a href="{:U('Admin/Yy/commision')}" target="right"><span class="icon-caret-right"></span>&nbsp;佣金分配</a></li>
+  	<li><a href="{:U('Admin/Yy/save_moeny')}" target="right"><span class="icon-caret-right"></span>&nbsp;佣金百分比</a></li>
+  </ul>
+</div>
+<script type="text/javascript">
+$(function(){
+  $(".leftnav h2").click(function(){
+	  $(this).next().slideToggle(200);
+	  $(this).toggleClass("on"); 
+  })
+  $(".leftnav ul li a").click(function(){
+	    $("#a_leader_txt").text($(this).text());
+  		$(".leftnav ul li a").removeClass("on");
+		$(this).addClass("on");
+  })
+});
+</script>
+<ul class="bread">
+  <li><a href="{:U('Index/selectweid')}" target="right" class="icon-home"> 首页</a></li>
+  <li><a href="##" id="a_leader_txt">修改密码</a></li>
+</ul>
+<div class="admin">
+  <iframe scrolling="auto" rameborder="0" src="{:U('Admin/Login/save_pwd')}" name="right" width="100%" height="100%">
+  </iframe>
+</div>
+<div style="text-align:center;">
+<p>来源:西安格创网络</p>
+</div>
+</body>
+
+</html>

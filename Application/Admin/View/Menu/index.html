@@ -1,0 +1,64 @@
+<include file="Public/header"/>
+<body>
+<form action="{:U('Admin/Menu/del')}" method="get"> 
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder">文章列表</strong></div>
+  <div class="padding border-bottom">  
+  <a class="button border-green" href="{:U('Admin/Menu/add_article')}"><span class="icon-plus-square-o"></span>添加文章</a>
+  </div>
+      <div class="padding border-bottom">
+      <ul class="search">
+        <li>
+          <button type="button"  class="button border-green" id="checkall"><span class="icon-check"></span> 全选</button>
+          <button type="submit" class="button border-red"><span class="icon-trash-o"></span> 批量删除</button>
+        </li>
+      </ul>
+    </div> 
+  <table class="table table-hover text-center">
+    <tr>
+      <th>ID</th>     
+      <th>文章标题</th>
+      <th>文章权限</th> 
+      <th>文章封面</th>
+	  <th>文章简介</th>
+	  <th>创建时间</th>
+	  <th>操作</th>
+    </tr>
+	<volist name="menu" id="vo">
+    <tr>
+      <td style="width:5%"><input type="checkbox" name="id[]" value="{$vo.id}"/>{$vo.id}</td>
+      <td style="width:20%">{$vo.title}</td>  
+      <td style="width:12%">{$vo.rank|getRank}</td> 
+      <td style="width:10%"><img width="60" src="__PUBLIC__/uploads/{$vo.picture}"></td> 
+      <td style="width:20%">{$vo.small_title}</td>  
+	  <td style="width:10%">{$vo.createtime|date='Y-m-d',###}</td>	
+      <td>
+      <div class="button-group">
+      <a type="button"  class="button border-main" href="{:U('Admin/Menu/save_menu',array('id'=>$vo['id']))}"><span class="icon-edit"></span>修改文章</a>
+      <a href="javascript:void(0)" attr-id="{$vo.id}" onclick="common.pull_black" class="button border-red del_menu" ><span class="icon-trash-o" ></span>删除文章</a>
+      </div>
+      </td>
+    </tr> 
+	</volist>
+	<tr>
+        <td colspan="8"><div class="pagelist">{$page}</div></td>
+    </tr>
+  </table>
+</div>
+</form>
+<script>
+$("#checkall").click(function(){ 
+	  $("input[name='id[]']").each(function(){
+		  if (this.checked) {
+			  this.checked = false;
+		  }
+		  else {
+			  this.checked = true;
+		  }
+	  });
+	})
+
+</script>
+<script src="__PUBLIC__/js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no"><meta name="format-detection" content="telephone=no" /><title>韩梅梅</title><link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/foxui.min.css"><link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/style.css"><link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/iconfont.css"><link href="__PUBLIC__/index/css/foxui.diy.css"rel="stylesheet"type="text/css"/><script src="__PUBLIC__/index/js/jquery-1.11.1.min.js"></script><script src='__PUBLIC__/index/js/jweixin-1.1.0.js'></script><script src="__PUBLIC__/js/jquery.js"></script><style>
+body {
+    position: absolute;
+    max-width: 750px;  	padding-top: 40px;
+}
+.fui-navbar {
+    max-width:750px;
+}
+.fui-navbar,.fui-footer  {
+    max-width:750px;
+}
+</style></head><body ><div class='fui-page-group '> 
+<div class='fui-page  fui-page-current ' style="top: 0; background-color: #ffffff; ">
+    <div class="fui-header">
+        <div class="fui-header-left">
+               <a href="/index.php/home/index/news" class="external"><i class="icon icon-home"></i> </a>
+       </div>
+        <div class="title">最新口子</div>
+        <div class="fui-header-right"></div>
+    </div>
+<div class="fui-content navbar" id="container" style="background-color: #ffffff; padding-bottom: 0;">                       
+<div class="fui-picture" style="padding-bottom: 0px; background: ;">
+<a href="/index.php/home/index/news" style="display: block; padding: 0px 0px;" data-nocache="true"><img src="__PUBLIC__/index/picture/uz55r0ubzaxxx55lbvd2da2bdzravv.jpg" /></a></div> <div class="diy-richtext" style="background: #ffffff;color: #000; padding: 4px;"> <div class="fui-picture">        <volist name="menu"  id="vo">        <div style="height:200px;">        <a href="javascript:void(0)"  data-id="{$vo.id}" data-rank="{$vo.rank}" onclick="verify(this)"style="overflow: hidden;line-height:17px;display: block;height:170px;border-bottom:1px solid #ccc;clear:both;padding:10px;box-sizing: content-box; margin-bottom: 5px;" >          <div style="width:30%; display: inline-block;">                  <img src="__PUBLIC__/uploads/{$vo.picture}" width="110" height="170" alt="" />          </div>          <div style="width:60%;display: inline-block;margin-left: 15px;vertical-align: top;  ">          		<div style="white-space:nowrap; color: #444;font-size:16px;width: 100%;overflow: hidden;text-overflow:ellipsis;">{$vo.title}</div>          		<div style="color: #666;font-size:12px;height:50px;overflow: hidden;">{$vo.small_title}</div>          		<div style="color: #666;font-size:13px;">更新时间：{$vo.createtime|date='Y-m-d',###}</div>          		<if condition="$vo.rank eq 2"> <span style="color: #9c0606;font-size:15px;">中级会员及以上会员可查看</span><br />				<elseif condition="$vo.rank eq 3"/><span style="color: #9c0606;font-size:15px;">高级会员及以上会员可查看</span><br />				<elseif condition="$vo.rank eq 4"/><span style="color: #9c0606;font-size:15px;">服务商及以上可查看</span><br />				<elseif condition="$vo.rank eq 5"/><span style="color: #9c0606;font-size:15px;">金牌服务商及以上可查看</span><br />				<elseif condition="$vo.rank eq 6"/><span style="color: #9c0606;font-size:15px;">合伙人可查看</span><br />				</if>				<br />				<input type="hidden" name="status"  value="{$obj.status}">          		<span style="border-radius:5px;width: 100px;height: 30px;padding: 5px;background-color:#038ffe;color: #e4e3e3;font-size:15px;">解析口子</span>          </div>        </a>        </div>        </volist>    </div></div>
+</div>
+<div class="diymenu" style=" position: absolute;max-width: 750px;">        <div class="item item-col-4 " onclick="location.href = '/index.php/home/index/shop'" >            <div class="inner  top">                        <span class="icon icon-vip top"></span>                                        <span class="text top" >会员升级</span>            </div>         </div>        <div class="item item-col-4 " onclick="location.href = '/index.php/home/index/news'" >            <div class="inner  top">                    <span class="icon icon-hotfill top" style="color: #000;"></span>                    <span class="text top" >最新口子</span>                        </div>        </div>        <div class="item item-col-4 " onclick="location.href = '/index.php/home/index/speed'" >              <div class="inner  top">                        <span class="icon icon-shopping top"></span>                    <span class="text top" >极速贷款</span>            </div>              </div>        <div class="item item-col-4 " onclick="location.href = '/index.php/home/index/index'" >            <div class="inner  top">                        <span class="icon icon-person2 top"></span>                    <span class="text top" >个人中心</span>            </div>        </div></div>
+</div></div><script>function verify(obj){	var id =$(obj).data('id');	var rank = $(obj).data('rank');	var status = $("input[name='status']").val();	if(rank <= status){		window.location = '/index.php/home/index/article'+'?id='+id;	}else{		window.location ='/index.php/home/index/error';	}}</script></body>
+</html>

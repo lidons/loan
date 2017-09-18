@@ -1,0 +1,43 @@
+<include file="Public/header"/>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong><span class="icon-key"></span> 修改管理员密码</strong></div>
+  <div class="body-content form-x">
+      <div class="form-group">
+        <div class="label">
+          <label for="sitename">用户名：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w100"  value=""  id="username"name="username"  placeholder="请输入用户名" data-validate="required:请输入用户名"   />       
+        </div>
+      </div>      
+      <div class="form-group">
+        <div class="label">
+          <label for="sitename">密码：</label>
+        </div>
+        <div class="field">
+          <input type="password" class="input w100"  id="password"name="password" size="50" placeholder="请输入密码" data-validate="required:请输入密码" />       
+        </div>
+      </div>      
+      <div class="form-group">
+        <div class="label">
+          <label for="sitename">确认密码：</label>
+        </div>
+        <div class="field">
+          <input type="password" class="input w100" name="repassword" size="50" placeholder="请再次输入新密码" data-validate="required:请再次输入新密码,repeat#password:两次输入的密码不一致" />          
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" onclick="login.check()" type="submit"> 提交</button>   
+        </div>
+      </div>      
+  </div>
+</div>
+</body>
+<script src="__PUBLIC__/js/login.js"></script>
+</html>

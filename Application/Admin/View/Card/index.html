@@ -1,0 +1,41 @@
+<include file="Public/header"/>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder">第三方入口</strong></div>
+  <div class="padding border-bottom">  
+ 
+  <a class="button border-yellow" href="{:U('Admin/Card/add_tc')}"><span class="icon-plus-square-o"></span>添加银行</a>
+  <!-- <a class="button border-green" href="{:U('Admin/Newest/add_article')}"><span class="icon-plus-square-o"></span> 添加案例</a> -->
+  </div> 
+  <table class="table table-hover text-center">
+    <tr>
+      <th >Id</th>     
+      <th>银行名称</th>
+	  <th>银行地址</th> 
+	  <th>银行办办卡进度查询</th>
+	  <th>银行图标</th>
+      <th>操作</th>
+    </tr>
+	<volist name="card" id="vo">
+    <tr>    
+      <td style="width:5%;">{$vo.id}</td>
+      <td style="width:15%;">{$vo.title}</td>
+      <td style="width:15%;">{$vo.url}</td>
+      <td style="width:15%;">{$vo.card_url}</td>
+      <td style="width:15%;"><img src="__PUBLIC__/uploads/{$vo.picture}" width="50" hight="50" alt="" /></td>
+      <td>
+      <div class="button-group">
+      <a type="button" class="button border-main save_card"  attr-id="{$vo.id}"href="javascript:void(0)"><span class="icon-edit"></span>修改</a>
+      <a type="button" class="button border-red del_card"  attr-id="{$vo.id}"href="javascript:void(0)"><span class="icon-edit"></span>删除</a>
+      </div>
+      </td>
+    </tr> 
+	</volist>
+	<tr>
+        <td colspan="8"><div class="pagelist">{$page}</div></td>
+    </tr>
+  </table>
+</div>
+<script src="__PUBLIC__/js/newest.js"></script>
+</body>
+</html>
